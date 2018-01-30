@@ -1,0 +1,189 @@
+body{
+    background-color: #f6f6f6;
+    margin: 0;
+    padding: 0;
+}
+#whole{
+    height: 600px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: black;
+}
+#headernav{
+    height: 75px;
+    width: 100%;
+    background-color: white;
+}
+.navtext{
+    font-size: 12px;
+    color: gray;
+}
+.navtextactive{
+    font-size: 12px;
+    color: black;
+}
+.navhead{
+    height: 100%;
+}
+#row2{
+    height: 610px;
+}
+.description{
+    color: gray;
+    text-align: left;
+    margin-left: 0;
+}
+span{
+    border-bottom: 1px solid darkgray;
+}
+.work{
+    text-align: left;
+    width: 48%;
+}
+.work:hover{
+    text-decoration: none;
+}
+footer{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: gray;
+}
+.socialnetwork{
+    color: gray;
+    margin-left: 10px;
+}
+#digitalproduct{
+    background-color: white;
+}
+#rowdigital{
+    height: 400px;
+}
+#digitalimg{
+    background-image: url("../img/plants.png");
+    background-size: cover;
+    background-position: center;
+}
+#rowcontainer{
+    height: 800px;
+}
+.whitework{
+    background-color: white;
+    text-align: left;
+    height: 400px;
+}
+.worknumbers{
+    color: gainsboro;
+}
+#rowcontainer2{
+    height: 400px;
+}
+#rowcontainer3{
+    height: 400px;
+}
+#snowvideo{
+    position: absolute; right: 0; bottom: 0;
+    min-width: 100%; min-height: 100%;
+    width: auto; height: auto; z-index: -100;
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
+}
+#videotitle{
+    height: 300px;
+    color: white;
+}
+#aboutsecondrow{
+    background-color: #f6f6f6;
+    height: 420px;
+    margin-top: 5%;
+}
+#teamtitle{
+    color: black;
+}
+.section {
+    position: relative;
+    width: 900px;
+    max-width: 80%;
+    border: 2px solid #333;
+    border-top: none;
+    text-align: center;
+    margin: 60px auto;
+}
+
+.section h1 {
+    position: relative;
+    margin-top: -14px;
+    display: inline-block;
+    letter-spacing: 4px;
+}
+
+.top-border{
+    position: absolute;
+    height: 2px;
+    width: 24%;
+    background-color: #333;
+}
+
+.right {
+    right: 0;
+}
+
+.left {
+    left: 0;
+}
+
+@media (max-width: 685px) {
+    .top-border {
+        width: 18%;
+    }
+}
+
+.section p {
+    width: 61%;
+    margin: 20px auto 40px auto;
+    line-height: 30px;
+}
+
+.section a {
+    outline: 0;
+    display: inline-block;
+    padding: 20px;
+    margin-bottom: 40px;
+    width: 440px;
+    max-width: 80%;
+    background-color: #333;
+    color: #fff;
+    font-size: 22px;
+    letter-spacing: 3px;
+    transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+}
+
+.section a:hover {
+    background-color: #1D222D;
+}
+
+.section a:link, .section a:visited, .section a:link:hover, .section a:visited:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+@media (max-width: 500px) {
+    .top-border {
+        display: none;
+    }
+    .section {
+        border-top: 2px solid #333;
+    }
+    .section h1 {
+        margin: 20px 6px;
+    }
+}
+input{
+    width: 600px;
+}
+
